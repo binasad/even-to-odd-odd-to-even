@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div  >
+        <h2 id="demo"></h2>
+      
+</body>
+<script>
+    let number =  parseInt(prompt("enter a number:"));
+   
+    function myfunction(number){
+    
+
+ 
+        if(number%2===0)
+        {
+
+        //return number + 3;
+    document.getElementById('demo').innerHTML = "this is an odd  " + (number + 3);
+     
+        }
+    else if(number%2===1) {
+        //return number +2
+    document.getElementById('demo').innerHTML = "this is an even" + (number + 3);
+     
+    }
+    else{
+
+    document.getElementById('demo').innerHTML = "its all right" ;
+     
+    }
+    }
+    console.log(myfunction(number));
+  
+  
+
+
+
+
+</script>
+</html>
